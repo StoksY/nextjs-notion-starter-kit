@@ -2,7 +2,8 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: '108a0a1e598e8083b9cdeea2bcb36d29',
+  rootNotionPageId: '0de953c94e5a4d73bad202e63f3fce34',
+  // rootNotionPageId: '108a0a1e598e8083b9cdeea2bcb36d29',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
@@ -10,7 +11,8 @@ export default siteConfig({
 
   // basic site info (required)
   name: '喜欢杨百梳',
-  domain: 'https://phrygian-scent-29a.notion.site/your-student-dashboard-108a0a1e598e8083b9cdeea2bcb36d29',
+  domain:'https://ebony-dessert-1b3.notion.site/0de953c94e5a4d73bad202e63f3fce34',
+  // domain: 'https://www.notion.so/0de953c94e5a4d73bad202e63f3fce34?v=fffdb18a3c8c812c8783000cc7f525d5&pvs=4',
   author: '杨百梳',
 
   // open graph metadata (optional)
