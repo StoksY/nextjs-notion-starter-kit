@@ -11,7 +11,7 @@ import BodyClassName from 'react-body-classname'
 import { NotionRenderer } from 'react-notion-x'
 import TweetEmbed from 'react-tweet-embed'
 import { useSearchParam } from 'react-use'
-import { useEffect } from 'react-use'
+import { useEffect } from 'react'
 
 import * as config from '@/lib/config'
 import * as types from '@/lib/types'
