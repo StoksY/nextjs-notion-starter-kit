@@ -12,7 +12,7 @@ export default siteConfig({
   // basic site info (required)
   name: '喜欢杨百梳',
   // domain:'https://phrygian-scent-29a.notion.site/your-student-dashboard-108a0a1e598e8083b9cdeea2bcb36d29',
-  domain: 'https://ebony-dessert-1b3.notion.site/0de953c94e5a4d73bad202e63f3fce34?v=fffdb18a3c8c81d2be7c000c09035ec8&pvs=4',
+  domain: 'https://ebony-dessert-1b3.notion.site/0de953c94e5a4d73bad202e63f3fce34',
   author: '杨百梳',
 
   // open graph metadata (optional)
