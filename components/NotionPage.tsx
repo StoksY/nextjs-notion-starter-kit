@@ -113,7 +113,29 @@ const propertyLastEditedTimeValue = (
 
   return defaultFn()
 }
-
+useEffect(() =>{
+  const script = document.creatElement('script');
+  script.src="https://giscus.app/client.js";
+  script.async=true;
+  script.cross0rigin="anonymous";
+  script.setAttribute('data-repo',"StoksY/nextjs-notion-starter-kit");
+  script.setAttribute('data-repo-id',"R_kgDOM1BolA");
+  script.setAttribute('data-category-id',"DIC_kwDOM1BolM4Cisnh");
+  script.setAttribute('data-mapping',"pathname");
+  script.setAttribute('data-strict',"0");
+  script.setAttribute('data-reactions-enabled',"1");
+  script.setAttribute('data-emit-metadata',"0");
+  script.setAttribute('data-input-position',"bottom");
+  script.setAttribute('data-theme',"preferred_color_scheme");
+  script.setAttribute('data-lang',"zh-CN");
+  script.setAttribute('crossorigin',"anonymous");
+  script.setAttribute('data-repo',"StoksY/nextjs-notion-starter-kit");
+  script.setAttribute('data-repo',"StoksY/nextjs-notion-starter-kit");
+  script.setAttribute('data-repo',"StoksY/nextjs-notion-starter-kit");
+  script.setAttribute('data-repo',"StoksY/nextjs-notion-starter-kit");
+  script.setAttribute('data-repo',"StoksY/nextjs-notion-starter-kit");
+  document.getElementById('giscus')?.appendChild(script);
+},[]);
 const propertyDateValue = (
   { data, schema, pageHeader },
   defaultFn: () => React.ReactNode
@@ -280,7 +302,7 @@ export const NotionPage: React.FC<types.PageProps> = ({
         pageAside={pageAside}
         footer={footer}
       />
-
+      <div id="giscus" className='notion-page notion-full-page'></div>
       <GitHubShareButton />
     </>
   )
