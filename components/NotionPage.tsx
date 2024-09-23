@@ -150,7 +150,7 @@ export const NotionPage: React.FC<types.PageProps> = ({
   pageId
 }) => {
   useEffect(() =>{
-  const script = document.creatElement('script');
+  const script = document.createElement('script');
   script.src="https://giscus.app/client.js";
   script.async=true;
   script.cross0rigin="anonymous";
