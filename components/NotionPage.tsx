@@ -153,7 +153,7 @@ export const NotionPage: React.FC<types.PageProps> = ({
   const script = document.createElement('script');
   script.src="https://giscus.app/client.js";
   script.async=true;
-  script.cross0rigin="anonymous";
+  script.crossOrigin="anonymous";
   script.setAttribute('data-repo',"StoksY/nextjs-notion-starter-kit");
   script.setAttribute('data-repo-id',"R_kgDOM1BolA");
   script.setAttribute('data-category-id',"DIC_kwDOM1BolM4Cisnh");
@@ -164,12 +164,6 @@ export const NotionPage: React.FC<types.PageProps> = ({
   script.setAttribute('data-input-position',"bottom");
   script.setAttribute('data-theme',"preferred_color_scheme");
   script.setAttribute('data-lang',"zh-CN");
-  script.setAttribute('crossorigin',"anonymous");
-  script.setAttribute('data-repo',"StoksY/nextjs-notion-starter-kit");
-  script.setAttribute('data-repo',"StoksY/nextjs-notion-starter-kit");
-  script.setAttribute('data-repo',"StoksY/nextjs-notion-starter-kit");
-  script.setAttribute('data-repo',"StoksY/nextjs-notion-starter-kit");
-  script.setAttribute('data-repo',"StoksY/nextjs-notion-starter-kit");
   document.getElementById('giscus')?.appendChild(script);
 },[]);
   const router = useRouter()
